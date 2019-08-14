@@ -1,0 +1,49 @@
+{
+  "name": "episource-ts-js-styleguide",
+  "private": true,
+  "description": "A mostly reasonable approach to Typescript and JavaScript.",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EpisourceLLC/ts-js-styleguide.git"
+  },
+  "keywords": [
+    "style guide",
+    "lint",
+    "episource",
+    "es6",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "react",
+    "jsx"
+  ],
+  "author": "Ivan Santos (https://github.com/pragmaticivan)",
+  "contributors": [
+    {
+      "name": "Ivan Santos ",
+      "url": "https://github.com/pragmaticivan"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/EpisourceLLC/ts-js-styleguide/issues"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "homepage": "https://github.com/EpisourceLLC/ts-js-styleguide",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
+
