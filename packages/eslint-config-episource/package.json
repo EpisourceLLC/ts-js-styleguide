@@ -1,0 +1,54 @@
+{
+  "name": "eslint-config-episource",
+  "version": "3.2.2",
+  "description": "Episource's ESLint config, following our code conventions",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "jest.js",
+    "prettier.config.js",
+    "rules"
+  ],
+  "scripts": {
+    "test": "echo \"Run tests from root\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpisourceLLC/ts-js-styleguide.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "episource",
+    "javascript",
+    "code conventions"
+  ],
+  "author": "Ivan Santos (https://github.com/pragmaticivan)",
+  "contributors": [
+    {
+      "name": "Ivan Santos",
+      "url": "https://github.com/pragmaticivan"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/EpisourceLLC/ts-js-styleguide/tree/latest/packages/eslint-config-episource#readme",
+  "engines": {
+    "node": ">= 10.16.2"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": ">= 5.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.5.0",
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "eslint-config-episource-base": "0.0.1",
+    "prettier-config-episource": "0.0.1"
+  }
+}
