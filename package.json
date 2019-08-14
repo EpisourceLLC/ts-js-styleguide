@@ -14,6 +14,7 @@
     "lint:prettier": "eslint --print-config packages/eslint-config-zillow/index.js | eslint-config-prettier-check",
     "test": "jest",
     "test:watch": "jest --watch",
+    "format": "eslint ./packages --fix",
     "pretest": "lerna run prepare --loglevel error && yarn run --silent lint",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "prerelease": "yarn test",
