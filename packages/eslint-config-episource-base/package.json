@@ -1,0 +1,47 @@
+{
+  "name": "eslint-config-episource-base",
+  "version": "0.0.1",
+  "description": "Episource's base JS ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpisourceLLC/ts-js-styleguide.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "episource",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "author": "Ivan Santos (https://github.com/pragmaticivan)",
+  "contributors": [
+    {
+      "name": "Ivan Santos ",
+      "url": "https://github.com/pragmaticivan"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/EpisourceLLC/ts-js-styleguide",
+  "devDependencies": {
+  },
+  "peerDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "engines": {
+    "node": ">= 10.16.2"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.7",
+    "object.assign": "^4.1.0",
+    "object.entries": "^1.1.0"
+  }
+}
