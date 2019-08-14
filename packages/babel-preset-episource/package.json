@@ -6,7 +6,7 @@
   "author": "Ivan Santos (https://github.com/pragmaticivan)",
   "contributors": [
     {
-      "name": "Ivan Santos ",
+      "name": "Ivan Santos",
       "url": "https://github.com/pragmaticivan"
     }
   ],
@@ -32,6 +32,7 @@
     "@babel/plugin-transform-property-mutators": "^7.2.0",
     "@babel/plugin-transform-runtime": "^7.4.4",
     "@babel/plugin-transform-template-literals": "^7.4.4",
+    "babel-plugin-styled-components": "^1.10.6",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24"
