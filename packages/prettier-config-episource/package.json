@@ -1,35 +1,35 @@
 {
-    "name": "prettier-config-episource",
-    "version": "0.0.1",
-    "description": "Episource's base Prettier config, following our code conventions",
-    "keywords": [
-      "prettier",
-      "config",
-      "episource",
-      "javascript",
-      "typescript"
-    ],
-    "homepage": "https://github.com/EpisourceLLC/ts-js-styleguide/tree/latest/packages/prettier-config-episource#readme",
-    "main": "lib/prettier-config-episource.js",
-    "files": [
-      "lib"
-    ],
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/EpisourceLLC/ts-js-styleguide.git"
-    },
-    "author": "Ivan Santos (https://github.com/pragmaticivan)",
-    "contributors": [
-      {
-        "name": "Ivan Santos",
-        "url": "https://github.com/pragmaticivan"
-      }
-    ],
-    "scripts": {
-      "test": "echo \"Error: run tests from root\" && exit 1"
-    },
-    "license": "MIT",
-    "engines": {
-      "node": ">= 10.16.2"
+  "name": "prettier-config-episource",
+  "version": "0.1.0",
+  "description": "Episource's base Prettier config, following our code conventions",
+  "keywords": [
+    "prettier",
+    "config",
+    "episource",
+    "javascript",
+    "typescript"
+  ],
+  "homepage": "https://github.com/EpisourceLLC/ts-js-styleguide/tree/latest/packages/prettier-config-episource#readme",
+  "main": "lib/prettier-config-episource.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpisourceLLC/ts-js-styleguide.git"
+  },
+  "author": "Ivan Santos (https://github.com/pragmaticivan)",
+  "contributors": [
+    {
+      "name": "Ivan Santos",
+      "url": "https://github.com/pragmaticivan"
     }
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10.16.2"
   }
+}

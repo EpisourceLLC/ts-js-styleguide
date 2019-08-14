@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-episource-base",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Episource's base JS ESLint config, following our styleguide",
   "main": "index.js",
   "files": [
@@ -9,8 +9,7 @@
     "prettier.config.js",
     "rules"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EpisourceLLC/ts-js-styleguide.git"
@@ -36,8 +35,6 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/EpisourceLLC/ts-js-styleguide",
-  "devDependencies": {
-  },
   "peerDependencies": {
     "eslint": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
@@ -50,8 +47,8 @@
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.7",
-    "prettier-config-episource": "^0.0.1",
     "object.assign": "^4.1.0",
-    "object.entries": "^1.1.0"
+    "object.entries": "^1.1.0",
+    "prettier-config-episource": "^0.1.0"
   }
 }

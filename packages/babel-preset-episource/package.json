@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-episource",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A babel preset for transforming your JavaScript for Episource",
   "main": "index.js",
   "author": "Ivan Santos (https://github.com/pragmaticivan)",
@@ -32,9 +32,9 @@
     "@babel/plugin-transform-property-mutators": "^7.2.0",
     "@babel/plugin-transform-runtime": "^7.4.4",
     "@babel/plugin-transform-template-literals": "^7.4.4",
-    "babel-plugin-styled-components": "^1.10.6",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
+    "babel-plugin-styled-components": "^1.10.6",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24"
   },
   "peerDependencies": {
@@ -45,10 +45,9 @@
     "@babel/core": "^7.0.0",
     "@babel/runtime": "^7.0.0",
     "eslint": "^6.1.0",
-    "eslint-config-episource-base": "^0.0.1",
+    "eslint-config-episource-base": "^0.1.0",
     "eslint-plugin-import": "^2.17.3",
     "safe-publish-latest": "^1.1.2"
   },
-  "scripts": {
-  }
+  "scripts": {}
 }
