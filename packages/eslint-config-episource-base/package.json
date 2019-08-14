@@ -3,6 +3,12 @@
   "version": "0.0.1",
   "description": "Episource's base JS ESLint config, following our styleguide",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "jest.js",
+    "prettier.config.js",
+    "rules"
+  ],
   "scripts": {
   },
   "repository": {
@@ -34,13 +40,17 @@
   },
   "peerDependencies": {
     "eslint": "^6.1.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
   },
   "engines": {
     "node": ">= 10.16.2"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.7",
+    "prettier-config-episource": "^0.0.1",
     "object.assign": "^4.1.0",
     "object.entries": "^1.1.0"
   }
