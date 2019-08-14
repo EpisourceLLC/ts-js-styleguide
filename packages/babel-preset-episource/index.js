@@ -2,17 +2,19 @@
 
 const { declare } = require('@babel/helper-plugin-utils');
 
+
 const defaultTargets = {
-  android: 30,
-  chrome: 35,
-  edge: 14,
-  ie: 9,
-  firefox: 52,
-  safari: 8,
+  android: 62,
+  chrome: 64,
+  edge: 16,
+  ie: 11,
+  firefox: 58,
+  ios: 10,
+  safari: 10,
 };
 
 function buildTargets({ additionalTargets }) {
-  return Object.assign({}, defaultTargets, additionalTargets);
+  return { ...defaultTargets, ...additionalTargets };
 }
 
 module.exports = declare((api, options) => {
@@ -58,15 +60,30 @@ module.exports = declare((api, options) => {
       [require('@babel/preset-react'), { development }],
     ],
     plugins: [
+      [
+        // this plugin _always_ needs to be loaded first
+        require('babel-plugin-styled-components'),
+        !development
+          ? {
+            // help bundlers tree-shake
+            pure: true,
+            // remove dev-mode noise
+            displayName: false,
+          }
+          : {
+            // use defaults
+          },
+      ],
       looseClasses ? [require('@babel/plugin-transform-classes'), {
         loose: true,
       }] : null,
 
-      removePropTypes ? [require('babel-plugin-transform-react-remove-prop-types'), Object.assign({
+      removePropTypes ? [require('babel-plugin-transform-react-remove-prop-types'), {
         mode: 'wrap',
         additionalLibraries: ['episource-prop-types'],
         ignoreFilenames: ['node_modules'],
-      }, removePropTypes)] : null,
+        ...removePropTypes,
+      }] : null,
 
       [require('@babel/plugin-transform-template-literals'), {
         spec: true,
