@@ -11,7 +11,7 @@
     "lint:rules:base": "eslint-find-rules --unused packages/eslint-config-episource-base/index.js",
     "lint:rules:jest": "eslint-find-rules --unused packages/eslint-config-episource-base/jest.js --no-core",
     "lint:rules:main": "eslint-find-rules --unused packages/eslint-config-episource/index.js",
-    "lint:prettier": "eslint --print-config packages/eslint-config-zillow/index.js | eslint-config-prettier-check",
+    "lint:prettier": "eslint --print-config packages/eslint-config-episource/index.js | eslint-config-prettier-check",
     "test": "jest",
     "test:watch": "jest --watch",
     "format": "eslint ./packages --fix",
