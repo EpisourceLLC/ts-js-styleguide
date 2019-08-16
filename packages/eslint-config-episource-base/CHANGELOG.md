@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource-base@0.2.1...eslint-config-episource-base@0.3.0) (2019-08-16)
+
+
+### Features
+
+* add typescript rules to base and general eslint ([ff44fe9](https://github.com/EpisourceLLC/ts-js-styleguide/commit/ff44fe9))
+
+
+
+
+
 ## [0.2.1](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource-base@0.2.0...eslint-config-episource-base@0.2.1) (2019-08-15)
 
 

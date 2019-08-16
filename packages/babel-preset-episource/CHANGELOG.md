@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/babel-preset-episource@0.1.3...babel-preset-episource@0.2.0) (2019-08-16)
+
+
+### Features
+
+* add typescript rules to base and general eslint ([ff44fe9](https://github.com/EpisourceLLC/ts-js-styleguide/commit/ff44fe9))
+
+
+
+
+
 ## [0.1.3](https://github.com/EpisourceLLC/ts-js-styleguide/compare/babel-preset-episource@0.1.2...babel-preset-episource@0.1.3) (2019-08-15)
 
 **Note:** Version bump only for package babel-preset-episource
