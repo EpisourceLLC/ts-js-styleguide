@@ -6,10 +6,13 @@
   "files": [
     "index.js",
     "jest.js",
+    "typescript.js",
     "prettier.config.js",
     "rules"
   ],
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Run tests from root\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EpisourceLLC/ts-js-styleguide.git"
@@ -36,6 +39,7 @@
   "license": "MIT",
   "homepage": "https://github.com/EpisourceLLC/ts-js-styleguide",
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
     "eslint": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.3.0",
@@ -46,6 +50,7 @@
     "node": ">= 10.16.2"
   },
   "dependencies": {
+    "@typescript-eslint/parser": "^2.0.0",
     "confusing-browser-globals": "^1.0.7",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",

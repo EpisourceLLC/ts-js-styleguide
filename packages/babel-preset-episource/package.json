@@ -10,6 +10,9 @@
       "url": "https://github.com/pragmaticivan"
     }
   ],
+  "scripts": {
+    "test": "echo \"Run tests from root\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EpisourceLLC/ts-js-styleguide.git"
@@ -48,6 +51,5 @@
     "eslint-config-episource-base": "^0.2.1",
     "eslint-plugin-import": "^2.17.3",
     "safe-publish-latest": "^1.1.2"
-  },
-  "scripts": {}
+  }
 }

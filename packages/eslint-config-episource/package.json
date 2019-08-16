@@ -6,6 +6,7 @@
   "files": [
     "index.js",
     "jest.js",
+    "typescript.js",
     "prettier.config.js",
     "rules"
   ],
@@ -45,6 +46,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.5.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
     "prettier": "^1.16.4"
   },
   "dependencies": {
