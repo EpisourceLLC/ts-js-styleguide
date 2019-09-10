@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/babel-preset-episource@0.2.0...babel-preset-episource@0.3.0) (2019-09-10)
+
+
+### Features
+
+* update readmes ([d4188ef](https://github.com/EpisourceLLC/ts-js-styleguide/commit/d4188ef))
+
+
+
+
+
 # [0.2.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/babel-preset-episource@0.1.3...babel-preset-episource@0.2.0) (2019-08-16)
 
 

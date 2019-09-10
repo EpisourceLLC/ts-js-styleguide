@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource-base@0.3.0...eslint-config-episource-base@0.4.0) (2019-09-10)
+
+
+### Features
+
+* update readmes ([d4188ef](https://github.com/EpisourceLLC/ts-js-styleguide/commit/d4188ef))
+
+
+
+
+
 # [0.3.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource-base@0.2.1...eslint-config-episource-base@0.3.0) (2019-08-16)
 
 

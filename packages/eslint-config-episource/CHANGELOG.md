@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource@0.4.0...eslint-config-episource@0.5.0) (2019-09-10)
+
+
+### Features
+
+* __REDUX_DEVTOOLS_EXTENSION__ ignored on react ([c6a1ed3](https://github.com/EpisourceLLC/ts-js-styleguide/commit/c6a1ed3))
+
+
+
+
+
 # [0.4.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource@0.3.0...eslint-config-episource@0.4.0) (2019-08-16)
 
 
