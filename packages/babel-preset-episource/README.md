@@ -10,8 +10,10 @@ Currently contains transforms for all [stage 4](https://tc39.github.io/ecma262/)
 
 ## Install
 
+To install with all necessary `peerDependencies`, use [install-peerdeps](https://github.com/nathanhleung/install-peerdeps#usage):
+
 ```sh
-$ npm install --save-dev babel-preset-episource
+npx install-peerdeps --dev babel-preset-episource
 ```
 
 ## Usage
