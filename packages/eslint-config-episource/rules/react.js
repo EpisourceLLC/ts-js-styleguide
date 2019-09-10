@@ -18,7 +18,10 @@ module.exports = {
       dangleRules[0],
       {
         ...dangleRules[1],
-        allow: dangleRules[1].allow.concat(['__REDUX_DEVTOOLS_EXTENSION_COMPOSE__']),
+        allow: dangleRules[1].allow.concat([
+          '__REDUX_DEVTOOLS_EXTENSION_COMPOSE__',
+          '__REDUX_DEVTOOLS_EXTENSION__',
+        ]),
       },
     ],
 
