@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource@0.5.0...eslint-config-episource@0.5.1) (2019-11-27)
+
+**Note:** Version bump only for package eslint-config-episource
+
+
+
+
+
 # [0.5.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource@0.4.0...eslint-config-episource@0.5.0) (2019-09-10)
 
 
