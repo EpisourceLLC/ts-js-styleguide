@@ -16,7 +16,6 @@ module.exports = {
     'import/extensions': ['.js', '.ts', '.tsx', '.mjs'],
   },
   rules: {
-
     // Append `ts` and `tsx` extensions to Airbnb 'import/no-extraneous-dependencies' rule
     // Forbid the use of extraneous packages
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
