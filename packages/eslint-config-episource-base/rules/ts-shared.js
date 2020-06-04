@@ -1,6 +1,7 @@
 module.exports = {
   plugins: ['@typescript-eslint'],
   parser: '@typescript-eslint/parser',
+
   settings: {
     // Append 'ts' extensions to Airbnb 'import/resolver' setting
     'import/resolver': {
