@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ['eslint-config-episource-base/rules/ts-shared'].map(require.resolve),
+  extends: [
+    'eslint-config-episource-base/typescript',
+    './rules/react',
+    './rules/react-a11y',
+    'eslint-config-prettier/react',
+  ].map(require.resolve),
   settings: {
     // Append 'ts' and 'tsx' extensions to Airbnb 'import/resolver' setting
     'import/resolver': {

@@ -53,21 +53,7 @@ module.exports = {
         ImportDeclaration: 1,
         flatTernaryExpressions: false,
         // list derived from https://github.com/benjamn/ast-types/blob/HEAD/def/jsx.js
-        ignoredNodes: [
-          'JSXElement',
-          'JSXElement > *',
-          'JSXAttribute',
-          'JSXIdentifier',
-          'JSXNamespacedName',
-          'JSXMemberExpression',
-          'JSXSpreadAttribute',
-          'JSXExpressionContainer',
-          'JSXOpeningElement',
-          'JSXClosingElement',
-          'JSXText',
-          'JSXEmptyExpression',
-          'JSXSpreadChild',
-        ],
+        ignoredNodes: [],
         ignoreComments: false,
       },
     ],
@@ -98,9 +84,9 @@ module.exports = {
           'spec/**', // mocha, rspec-like pattern
           '**/__tests__/**', // jest pattern
           '**/__mocks__/**', // jest pattern
-          'test.{js,jsx,ts,tsx}', // repos with a single test file
-          'test-*.{js,jsx,ts,tsx}', // repos with multiple top-level test files
-          '**/*{.,_}{test,spec}.{js,jsx,ts,tsx}', // tests where the extension or filename suffix denotes that it is a test
+          'test.{js,jsx,ts}', // repos with a single test file
+          'test-*.{js,jsx,ts}', // repos with multiple top-level test files
+          '**/*{.,_}{test,spec}.{js,jsx,ts}', // tests where the extension or filename suffix denotes that it is a test
           '**/jest.config.js', // jest config
           '**/vue.config.js', // vue-cli config
           '**/webpack.config.js', // webpack config

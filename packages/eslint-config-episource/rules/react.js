@@ -550,6 +550,18 @@ module.exports = {
     // Enforce that props are read-only
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md
     'react/prefer-read-only-props': 'off',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
+    'react/function-component-definition': 'off',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-adjacent-inline-elements.md
+    'react/no-adjacent-inline-elements': 'off',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md
+    'react/jsx-no-script-url': 'off',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md
+    'react/jsx-no-useless-fragment': 'off',
   },
 
   settings: {
