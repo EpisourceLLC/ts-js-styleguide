@@ -6,7 +6,7 @@ const defaultTargets = {
   chrome: 83,
   edge: 83,
   firefox: 76,
-  ios_saf: 13.4,
+  ios: 13.4,
   safari: 13.1,
   node: 12,
 };
