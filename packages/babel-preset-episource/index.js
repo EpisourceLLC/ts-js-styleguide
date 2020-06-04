@@ -3,11 +3,12 @@
 const { declare } = require('@babel/helper-plugin-utils');
 
 const defaultTargets = {
-  chrome: 73,
-  edge: 18,
-  firefox: 60,
-  ios: 10,
-  safari: 12,
+  chrome: 83,
+  edge: 83,
+  firefox: 76,
+  ios_saf: 13.4,
+  safari: 13.1,
+  node: 12,
 };
 
 function buildTargets({ additionalTargets }) {
@@ -24,12 +25,6 @@ module.exports = declare((api, options) => {
     removePropTypes,
     looseClasses = false,
   } = options;
-
-  // jscript option is deprecated in favor of using the ie target version
-  // TODO: remove this option entirely in the next major release.
-  const jscript = Object.prototype.hasOwnProperty.call(options, 'jscript')
-    ? options.jscript
-    : targets.ie >= 6 && targets.ie <= 8;
 
   if (typeof modules !== 'undefined' && typeof modules !== 'boolean' && modules !== 'auto') {
     throw new TypeError(
@@ -107,7 +102,6 @@ module.exports = declare((api, options) => {
       require('@babel/plugin-transform-property-mutators'),
       require('@babel/plugin-transform-member-expression-literals'),
       require('@babel/plugin-transform-property-literals'),
-      jscript ? require('@babel/plugin-transform-jscript') : null,
       [
         require('@babel/plugin-proposal-object-rest-spread'),
         {
