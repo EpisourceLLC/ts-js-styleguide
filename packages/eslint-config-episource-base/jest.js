@@ -37,9 +37,6 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-duplicate-hooks.md
     'jest/no-duplicate-hooks': 'off',
 
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-empty-title.md
-    'jest/no-empty-title': 'error',
-
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-expect-resolves.md
     'jest/no-expect-resolves': 'off',
 
@@ -119,9 +116,6 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-todo.md
     'jest/prefer-todo': 'error',
-
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/require-tothrow-message.md
-    'jest/require-tothrow-message': 'warn',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-describe.md
     'jest/valid-describe': 'error',
