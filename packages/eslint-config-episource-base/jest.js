@@ -131,5 +131,23 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-expect-in-promise.md
     'jest/valid-expect-in-promise': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blog/master/docs/rules/jest/no-deprecated-functions.md
+    'jest/no-deprecated-functions': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blog/master/docs/rules/jest/no-restricted-matchers.md
+    'jest/no-restricted-matchers': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blog/master/docs/rules/jest/prefer-hooks-on-top.md
+    'jest/prefer-hooks-on-top': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blog/master/docs/rules/jest/require-to-throw-message.md
+    'jest/require-to-throw-message': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blog/master/docs/rules/jest/require-top-level-describe.md
+    'jest/require-top-level-describe': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blog/master/docs/rules/jest/valid-title.md
+    'jest/valid-title': 'error',
   },
 };

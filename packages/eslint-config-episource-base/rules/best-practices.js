@@ -365,5 +365,41 @@ module.exports = {
 
     // require or disallow Yoda conditions
     'yoda': 'error',
+
+    // https://eslint.org/docs/rules/default-case-last
+    'default-case-last': 'error',
+
+    // https://eslint.org/docs/rules/default-param-last
+    'default-param-last': 'error',
+
+    // https://eslint.org/docs/rules/grouped-accessor-pairs
+    'grouped-accessor-pairs': 'error',
+
+    // https://eslint.org/docs/rules/no-constructor-return
+    'no-constructor-return': 'error',
+
+    // https://eslint.org/docs/rules/no-dupe-else-if
+    'no-dupe-else-if': 'error',
+
+    // https://eslint.org/docs/rules/no-import-assign
+    'no-import-assign': 'error',
+
+    // https://eslint.org/docs/rules/no-loss-of-precision
+    'no-loss-of-precision': 'error',
+
+    // https://eslint.org/docs/rules/no-restricted-exports
+    'no-restricted-exports': 'error',
+
+    // https://eslint.org/docs/rules/no-setter-return
+    'no-setter-return': 'error',
+
+    // https://eslint.org/docs/rules/no-useless-backreference
+    'no-useless-backreference': 'error',
+
+    // https://eslint.org/docs/rules/prefer-exponentiation-operator
+    'prefer-exponentiation-operator': 'error',
+
+    // https://eslint.org/docs/rules/prefer-regex-literals
+    'prefer-regex-literals': 'error',
   },
 };
