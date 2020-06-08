@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource-base@0.5.0...eslint-config-episource-base@0.6.0) (2020-06-08)
+
+
+### Features
+
+* bump versions and support typescript ([21b2522](https://github.com/EpisourceLLC/ts-js-styleguide/commit/21b2522))
+
+
+
+
+
 # [0.5.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource-base@0.4.0...eslint-config-episource-base@0.5.0) (2019-11-27)
 
 
