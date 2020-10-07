@@ -401,5 +401,14 @@ module.exports = {
 
     // https://eslint.org/docs/rules/prefer-regex-literals
     'prefer-regex-literals': 'error',
+
+    // https://eslint.org/docs/rules/id-denylist
+    'id-denylist': ['error'],
+
+    // https://eslint.org/docs/rules/no-promise-executor-return
+    'no-promise-executor-return': 'error',
+
+    // https://eslint.org/docs/rules/no-unreachable-loop
+    'no-unreachable-loop': 'error',
   },
 };

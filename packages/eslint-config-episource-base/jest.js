@@ -143,5 +143,14 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blog/master/docs/rules/jest/valid-title.md
     'jest/valid-title': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-conditional-expect.md
+    'jest/no-conditional-expect': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-done-callback.md
+    'jest/no-done-callback': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-interpolation-in-snapshots.md
+    'jest/no-interpolation-in-snapshots': 'error',
   },
 };
