@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource@0.6.0...eslint-config-episource@0.7.0) (2020-10-09)
+
+
+### Features
+
+* update internal workspace packages ([1edb83c](https://github.com/EpisourceLLC/ts-js-styleguide/commit/1edb83c265c3ebde0e350bf73567ac51269813a1))
+
+
+
+
+
 # [0.6.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource@0.5.1...eslint-config-episource@0.6.0) (2020-06-08)
 
 
