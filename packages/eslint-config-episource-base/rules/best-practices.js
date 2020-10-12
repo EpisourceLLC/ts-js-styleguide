@@ -105,8 +105,6 @@ module.exports = {
     // disallow reassignments of native objects or read-only globals
     // https://eslint.org/docs/rules/no-global-assign
     'no-global-assign': ['error', { exceptions: [] }],
-    // deprecated in favor of no-global-assign
-    'no-native-reassign': 'off',
 
     // disallow implicit type conversions
     // https://eslint.org/docs/rules/no-implicit-coercion
@@ -401,9 +399,6 @@ module.exports = {
 
     // https://eslint.org/docs/rules/prefer-regex-literals
     'prefer-regex-literals': 'error',
-
-    // https://eslint.org/docs/rules/id-denylist
-    'id-denylist': ['error'],
 
     // https://eslint.org/docs/rules/no-promise-executor-return
     'no-promise-executor-return': 'error',
