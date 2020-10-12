@@ -37,9 +37,6 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-duplicate-hooks.md
     'jest/no-duplicate-hooks': 'off',
 
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-expect-resolves.md
-    'jest/no-expect-resolves': 'off',
-
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-export.md
     'jest/no-export': 'error',
 
@@ -76,24 +73,13 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-test-return-statement.md
     'jest/no-test-return-statement': 'error',
 
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-truthy-falsy.md
-    'jest/no-truthy-falsy': 'error',
-
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-try-expect.md
-    'jest/no-try-expect': 'off',
-
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-called-with.md
     'jest/prefer-called-with': 'off',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-expect-assertions.md
     'jest/prefer-expect-assertions': 'off',
 
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-inline-snapshots.md
-    // TODO: enable?
-    'jest/prefer-inline-snapshots': 'off',
-
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-spy-on.md
-    // TODO: enable when bugs are fixed
     'jest/prefer-spy-on': 'off',
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-strict-equal.md

@@ -116,9 +116,9 @@ module.exports = {
     // https://eslint.org/docs/rules/function-paren-newline
     'function-paren-newline': ['error', 'consistent'],
 
-    // Blacklist certain identifiers to prevent them being used
-    // https://eslint.org/docs/rules/id-blacklist
-    'id-blacklist': 'off',
+    // Denylist certain identifiers to prevent them being used
+    // https://eslint.org/docs/rules/id-denylist
+    'id-denylist': ['error'],
 
     // this option enforces minimum and maximum identifier lengths
     // (variable names, property names etc.)
@@ -216,16 +216,6 @@ module.exports = {
     // enforces empty lines around comments
     'lines-around-comment': 'off',
 
-    // require or disallow newlines around directives
-    // https://eslint.org/docs/rules/lines-around-directive
-    'lines-around-directive': [
-      'error',
-      {
-        before: 'always',
-        after: 'always',
-      },
-    ],
-
     // specify the maximum depth that blocks can be nested
     'max-depth': ['off', 4],
 
@@ -303,12 +293,6 @@ module.exports = {
     // disallow the omission of parentheses when invoking a constructor with no arguments
     // https://eslint.org/docs/rules/new-parens
     'new-parens': 'error',
-
-    // allow/disallow an empty newline after var statement
-    'newline-after-var': 'off',
-
-    // https://eslint.org/docs/rules/newline-before-return
-    'newline-before-return': 'off',
 
     // enforces new line after each method call in the chain to make it
     // more readable and easy to maintain
@@ -400,9 +384,6 @@ module.exports = {
           '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
       },
     ],
-
-    // disallow space between function identifier and application
-    'no-spaced-func': 'error',
 
     // disallow tab characters entirely
     'no-tabs': 'error',
@@ -510,10 +491,6 @@ module.exports = {
 
     // specify whether double or single quotes should be used
     'quotes': ['error', 'single', { avoidEscape: true }],
-
-    // do not require jsdoc
-    // https://eslint.org/docs/rules/require-jsdoc
-    'require-jsdoc': 'off',
 
     // require or disallow use of semicolons instead of ASI
     'semi': ['error', 'always'],
