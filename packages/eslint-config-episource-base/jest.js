@@ -70,9 +70,6 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-standalone-expect.md
     'jest/no-standalone-expect': 'error',
 
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-test-callback.md
-    'jest/no-test-callback': 'error',
-
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-test-prefixes.md
     'jest/no-test-prefixes': 'error',
 
