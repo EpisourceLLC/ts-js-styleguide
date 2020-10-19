@@ -587,9 +587,9 @@
     "@babel/helper-plugin-utils" "^7.10.4"
 
 "@babel/plugin-transform-jscript@^7.10.4":
-  version "7.10.4"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-jscript/-/plugin-transform-jscript-7.10.4.tgz#8ad6be0d283c8773bbbea68e53be3c2d3ad4a676"
-  integrity sha512-CVMP07FAysZPhPVtwb4PH30JHcNrLpjyDL7nrIuc0d4ENhl4V0ojXjBPwz86HJ2q9Er6OPwNwsW4HXzLQsyhAA==
+  version "7.12.1"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-jscript/-/plugin-transform-jscript-7.12.1.tgz#6f66ed714a903590168b6753653835aabc07a7a3"
+  integrity sha512-jgo2ZG/NdMFVNSLpY/rKWBAO2ce7VchiRx4S4zw80ystKyKUTv57c6shmcor+f6a17izRZ8ZXV0maPVJ9oZDZA==
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
