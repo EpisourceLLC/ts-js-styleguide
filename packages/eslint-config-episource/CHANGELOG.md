@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource@0.7.0...eslint-config-episource@0.8.0) (2020-10-19)
+
+
+### Features
+
+* remove deprecated rules ([95b8b44](https://github.com/EpisourceLLC/ts-js-styleguide/commit/95b8b448159b7261d78a57a1382aeaa82d079460))
+
+
+
+
+
 # [0.7.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource@0.6.0...eslint-config-episource@0.7.0) (2020-10-09)
 
 
