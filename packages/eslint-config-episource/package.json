@@ -53,5 +53,8 @@
     "@episource/eslint-config-base": "^0.10.2",
     "@episource/prettier-config": "^0.2.0"
   },
-  "gitHead": "2a061eefbeb6624ddd8b5483ac06cbaf28344ef5"
+  "gitHead": "2a061eefbeb6624ddd8b5483ac06cbaf28344ef5",
+  "publishConfig": {
+    "access": "public"
+  }
 }

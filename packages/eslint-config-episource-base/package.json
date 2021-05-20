@@ -60,5 +60,8 @@
     "object.assign": "^4.1.1",
     "object.entries": "^1.1.2"
   },
-  "gitHead": "2a061eefbeb6624ddd8b5483ac06cbaf28344ef5"
+  "gitHead": "2a061eefbeb6624ddd8b5483ac06cbaf28344ef5",
+  "publishConfig": {
+    "access": "public"
+  }
 }
