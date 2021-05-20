@@ -1,5 +1,5 @@
 {
-  "name": "babel-preset-episource",
+  "name": "@episource/babel-preset",
   "version": "0.5.2",
   "description": "A babel preset for transforming your JavaScript for Episource",
   "main": "index.js",
@@ -51,5 +51,6 @@
     "eslint-config-episource-base": "^0.9.0",
     "eslint-plugin-import": "^2.22.1",
     "safe-publish-latest": "^1.1.4"
-  }
+  },
+  "gitHead": "2a061eefbeb6624ddd8b5483ac06cbaf28344ef5"
 }
