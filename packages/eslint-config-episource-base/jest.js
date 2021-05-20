@@ -135,5 +135,8 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-interpolation-in-snapshots.md
     'jest/no-interpolation-in-snapshots': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/unbound-method.md
+    'jest/unbound-method': 'error',
   },
 };
