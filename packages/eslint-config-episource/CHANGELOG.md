@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource@0.8.0...eslint-config-episource@0.9.0) (2021-05-20)
+
+
+### Features
+
+* **EPAMCD-294:** upgrade eslint-plugin-jest dependency ([#69](https://github.com/EpisourceLLC/ts-js-styleguide/issues/69)) ([93fe8e0](https://github.com/EpisourceLLC/ts-js-styleguide/commit/93fe8e05fe2dfdd9af584652e6189157bf05cd1d))
+
+
+### BREAKING CHANGES
+
+* **EPAMCD-294:** This implicitly updates the jest dependency to ^26.0.0.
+
+
+
+
+
 # [0.8.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource@0.7.0...eslint-config-episource@0.8.0) (2020-10-19)
 
 
