@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.10.0 (2021-05-20)
+
+
+### Bug Fixes
+
+* disable rules conflicting with prettier ([db58d7c](https://github.com/EpisourceLLC/ts-js-styleguide/commit/db58d7c7d34207cbe5be07e13a1d157be6730e82))
+* namespace package names ([13c9f1d](https://github.com/EpisourceLLC/ts-js-styleguide/commit/13c9f1dc1cc97bf3039d76a5bd2f3d0baa77ebaa))
+* remove deprecated jest/no-test-callback ([#15](https://github.com/EpisourceLLC/ts-js-styleguide/issues/15)) ([b9e431c](https://github.com/EpisourceLLC/ts-js-styleguide/commit/b9e431cc6b7b5f9204a9be461fa923f12ab76289))
+* update root dependency ([114e5ae](https://github.com/EpisourceLLC/ts-js-styleguide/commit/114e5ae99f123abc0a6f1e868de863f0634dd6cd))
+
+
+### Features
+
+* **EPAMCD-294:** upgrade eslint-plugin-jest dependency ([#69](https://github.com/EpisourceLLC/ts-js-styleguide/issues/69)) ([93fe8e0](https://github.com/EpisourceLLC/ts-js-styleguide/commit/93fe8e05fe2dfdd9af584652e6189157bf05cd1d))
+* add base package for estlint config ([0eb7b44](https://github.com/EpisourceLLC/ts-js-styleguide/commit/0eb7b4424cd046bb104cf257b2ca87093776b21d))
+* add prettier config and plugin to base config pkg ([dcda275](https://github.com/EpisourceLLC/ts-js-styleguide/commit/dcda275ea75867731c4a353f3045c0dc46f5cab9))
+* add typescript rules to base and general eslint ([ff44fe9](https://github.com/EpisourceLLC/ts-js-styleguide/commit/ff44fe9f76b9f5440ae35ac20c71be68525a5fcc))
+* bump versions and support typescript ([21b2522](https://github.com/EpisourceLLC/ts-js-styleguide/commit/21b2522a103cbeb771dfd94a3db892d5e9880257))
+* remote ForOfStatement from no-restricted-syntax ([f422c6f](https://github.com/EpisourceLLC/ts-js-styleguide/commit/f422c6fa39fdf16a7078a40a292d9236ceb9230d))
+* remove deprecated rules ([95b8b44](https://github.com/EpisourceLLC/ts-js-styleguide/commit/95b8b448159b7261d78a57a1382aeaa82d079460))
+* update internal workspace packages ([1edb83c](https://github.com/EpisourceLLC/ts-js-styleguide/commit/1edb83c265c3ebde0e350bf73567ac51269813a1))
+* update jest and prettier configs for eslint base pkg ([df3b9bc](https://github.com/EpisourceLLC/ts-js-styleguide/commit/df3b9bcc2c463e8d8b658e471c4a4f8a089c6e06))
+* update readmes ([d4188ef](https://github.com/EpisourceLLC/ts-js-styleguide/commit/d4188ef0164fc2221fcb95f1559e8211e4e2c5b4))
+
+
+### BREAKING CHANGES
+
+* updated package name to be namespaced in the @episource organization.
+* **EPAMCD-294:** This implicitly updates the jest dependency to ^26.0.0.
+
+
+
+
+
 # [0.9.0](https://github.com/EpisourceLLC/ts-js-styleguide/compare/eslint-config-episource-base@0.8.0...eslint-config-episource-base@0.9.0) (2021-05-20)
 
 

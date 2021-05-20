@@ -1,6 +1,6 @@
 {
   "name": "@episource/eslint-config",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Episource's ESLint config, following our code conventions",
   "main": "index.js",
   "files": [

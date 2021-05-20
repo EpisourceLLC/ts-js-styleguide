@@ -1,6 +1,6 @@
 {
   "name": "@episource/babel-preset",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "A babel preset for transforming your JavaScript for Episource",
   "main": "index.js",
   "author": "Ivan Santos (https://github.com/pragmaticivan)",
