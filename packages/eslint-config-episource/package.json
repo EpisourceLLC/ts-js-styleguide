@@ -50,8 +50,8 @@
     "prettier": "^2.1.2"
   },
   "dependencies": {
-    "eslint-config-episource-base": "^0.9.0",
-    "prettier-config-episource": "^0.1.1"
+    "@episource/eslint-config-base": "^0.10.0",
+    "@episource/prettier-config": "^0.2.0"
   },
   "gitHead": "2a061eefbeb6624ddd8b5483ac06cbaf28344ef5"
 }

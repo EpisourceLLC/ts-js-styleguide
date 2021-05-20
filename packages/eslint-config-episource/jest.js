@@ -1,1 +1,1 @@
-module.exports = require('eslint-config-episource-base/jest');
+module.exports = require('@episource/eslint-config-base/jest');

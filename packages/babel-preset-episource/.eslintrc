@@ -1,11 +1,12 @@
 {
   "root": true,
-
-  "extends": "episource-base",
-
+  "extends": "@episource/eslint-config-base",
   "rules": {
     "global-require": 0,
-    "strict": ["error", "global"]
+    "strict": [
+      "error",
+      "global"
+    ]
   },
   "parserOptions": {
     "sourceType": "script"

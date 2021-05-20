@@ -1,4 +1,4 @@
-const baseStyleRules = require('eslint-config-episource-base/rules/style').rules;
+const baseStyleRules = require('@episource/eslint-config-base/rules/style').rules;
 
 const dangleRules = baseStyleRules['no-underscore-dangle'];
 

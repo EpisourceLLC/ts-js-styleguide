@@ -1,4 +1,4 @@
 
 'use strict';
 
-module.exports = require('prettier-config-episource');
+module.exports = require('@episource/prettier-config');

@@ -1,5 +1,10 @@
 {
   "root": true,
-  "extends": ["episource-base", "plugin:jest/recommended"],
-  "plugins": ["jest"]
+  "extends": [
+    "@episource/eslint-config-base",
+    "plugin:jest/recommended"
+  ],
+  "plugins": [
+    "jest"
+  ]
 }

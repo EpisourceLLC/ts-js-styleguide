@@ -58,7 +58,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "object.assign": "^4.1.1",
     "object.entries": "^1.1.2",
-    "prettier-config-episource": "^0.1.1"
+    "@episource/prettier-config": "^0.2.0"
   },
   "gitHead": "2a061eefbeb6624ddd8b5483ac06cbaf28344ef5"
 }
