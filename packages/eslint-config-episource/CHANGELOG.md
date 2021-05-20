@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.3](https://github.com/EpisourceLLC/ts-js-styleguide/compare/@episource/eslint-config@0.10.2...@episource/eslint-config@0.10.3) (2021-05-20)
+
+
+### Bug Fixes
+
+* make packages public ([5c9afa9](https://github.com/EpisourceLLC/ts-js-styleguide/commit/5c9afa92ce5e3b86d86b95309ff7a2acfd007878))
+
+
+
+
+
 ## [0.10.2](https://github.com/EpisourceLLC/ts-js-styleguide/compare/@episource/eslint-config@0.10.1...@episource/eslint-config@0.10.2) (2021-05-20)
 
 **Note:** Version bump only for package @episource/eslint-config
