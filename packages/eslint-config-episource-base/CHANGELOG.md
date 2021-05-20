@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.2](https://github.com/EpisourceLLC/ts-js-styleguide/compare/@episource/eslint-config-base@0.10.1...@episource/eslint-config-base@0.10.2) (2021-05-20)
+
+
+### Bug Fixes
+
+* correctly handle no-use-before-define ([2d54e72](https://github.com/EpisourceLLC/ts-js-styleguide/commit/2d54e728b143434d86635b525a7a456052c6e082))
+
+
+
+
+
 ## [0.10.1](https://github.com/EpisourceLLC/ts-js-styleguide/compare/@episource/eslint-config-base@0.10.0...@episource/eslint-config-base@0.10.1) (2021-05-20)
 
 
