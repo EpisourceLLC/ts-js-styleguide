@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.1](https://github.com/EpisourceLLC/ts-js-styleguide/compare/@episource/eslint-config-base@0.10.0...@episource/eslint-config-base@0.10.1) (2021-05-20)
+
+
+### Bug Fixes
+
+* correct dependencies ([f32200b](https://github.com/EpisourceLLC/ts-js-styleguide/commit/f32200b2f678054029b98c637901a7fe3ef67fa4))
+
+
+
+
+
 # 0.10.0 (2021-05-20)
 
 
