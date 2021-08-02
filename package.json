@@ -85,7 +85,7 @@
   },
   "commitlint": {
     "extends": [
-      "@commitlint/config-conventional"
+      "@episource/commitlint-config"
     ]
   }
 }
