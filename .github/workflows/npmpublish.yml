@@ -1,11 +1,11 @@
-name: Node.js Package
+name: Release
 
 on:
-  release:
-    types: [created]
-
+  push:
+    branches:
+      - mater
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -13,33 +13,4 @@ jobs:
         with:
           node-version: 14
       - run: yarn install
-      - run: yarn test
-
-  publish-npm:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 14
-          registry-url: https://registry.npmjs.org/
-      - run: yarn install
-      - run: yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 14
-          registry-url: https://npm.pkg.github.com/
-          scope: '@EpisourceLLC'
-      - run: npm install
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - run: yarn release -y
