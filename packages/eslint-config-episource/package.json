@@ -35,7 +35,7 @@
   "license": "MIT",
   "homepage": "https://github.com/EpisourceLLC/ts-js-styleguide/tree/latest/packages/eslint-config-episource#readme",
   "engines": {
-    "node": ">= 10.16.2"
+    "node": ">= 14"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.4.0",

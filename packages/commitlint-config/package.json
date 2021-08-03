@@ -1,0 +1,15 @@
+{
+  "name": "@episource/commitlint-config",
+  "version": "1.0.0",
+  "description": "Commitlint rules for Episource JS repositories",
+  "main": "commitlint.config.js",
+  "repository": "https://github.com/EpisourceLLC/ts-js-styleguide",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 14"
+  },
+  "private": false,
+  "dependencies": {
+    "@commitlint/config-conventional": "^13.1.0"
+  }
+}
