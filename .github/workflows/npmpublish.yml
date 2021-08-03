@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     branches:
-      - mater
+      - master
 jobs:
   release:
     runs-on: ubuntu-latest
