@@ -12,5 +12,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
+      - run: |
+          git config --global user.email "engineering@episource.com"
+          git config --global user.name "Episource Engineering"
       - run: yarn install
       - run: yarn release -y
