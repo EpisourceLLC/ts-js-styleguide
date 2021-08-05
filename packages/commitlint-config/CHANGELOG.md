@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.7 (2021-08-05)
+
+
+### Bug Fixes
+
+* update commit message for independent versioning ([05632d7](https://github.com/EpisourceLLC/ts-js-styleguide/commit/05632d765182a9181ec1d29d52bc14b1c101c8ac))
+
+
+
+
+
 ## 2.0.6 (2021-08-05)
 
 
