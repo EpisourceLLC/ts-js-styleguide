@@ -20,7 +20,7 @@
     "pretest": "lerna run prepare --loglevel error && yarn run --silent lint",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "prerelease": "yarn test",
-    "release": "lerna publish",
+    "release": "lerna publish --no-verify-access",
     "diff": "lerna diff"
   },
   "workspaces": [
