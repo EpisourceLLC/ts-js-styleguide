@@ -10,7 +10,11 @@
       "conventionalCommits": true
     },
     "version": {
-      "message": "chore(release): release [skip ci]"
+      "allowBranch": [
+        "develop",
+        "master"
+      ],
+      "message": "chore(release): publish %s [skip release]"
     }
   }
 }
