@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.6.10 (2021-08-05)
+
+
+### Bug Fixes
+
+* skip ci ([869bbec](https://github.com/EpisourceLLC/ts-js-styleguide/commit/869bbec8ae0ca77acd7ec98eaa097fd640414931))
+
+
+
+
+
 ## 0.6.9 (2021-08-05)
 
 **Note:** Version bump only for package @episource/babel-preset
