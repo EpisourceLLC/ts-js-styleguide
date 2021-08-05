@@ -1,6 +1,6 @@
 {
   "name": "@episource/eslint-config",
-  "version": "0.11.2",
+  "version": "0.11.3",
   "description": "Episource's ESLint config, following our code conventions",
   "main": "index.js",
   "files": [
@@ -50,8 +50,8 @@
     "prettier": "^2.1.2"
   },
   "dependencies": {
-    "@episource/eslint-config-base": "^0.11.2",
-    "@episource/prettier-config": "^0.3.2"
+    "@episource/eslint-config-base": "^0.11.3",
+    "@episource/prettier-config": "^0.3.3"
   },
   "gitHead": "2a061eefbeb6624ddd8b5483ac06cbaf28344ef5",
   "publishConfig": {
