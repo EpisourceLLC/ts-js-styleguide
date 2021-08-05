@@ -405,5 +405,11 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-unreachable-loop
     'no-unreachable-loop': 'error',
+
+    // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
+    'no-nonoctal-decimal-escape': 'error',
+
+    // https://eslint.org/docs/rules/no-unsafe-optional-chaining
+    'no-unsafe-optional-chaining': 'error',
   },
 };
