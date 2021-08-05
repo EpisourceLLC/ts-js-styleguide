@@ -13,7 +13,7 @@
       "allowBranch": [
         "master"
       ],
-      "message": "chore(release): publish %s [skip release]"
+      "message": "chore(release): publish %s [skip ci]"
     }
   }
 }
