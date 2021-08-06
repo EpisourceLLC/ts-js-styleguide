@@ -532,6 +532,12 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md
     'react/jsx-no-useless-fragment': 'off',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-constructed-context-values.md
+    'react/jsx-no-constructed-context-values': 'error',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unstable-nested-components.md
+    'react/no-unstable-nested-components': 'error',
   },
 
   settings: {
