@@ -261,5 +261,11 @@ module.exports = {
         unusedExports: true,
       },
     ],
+
+    // https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/no-import-module-exports.md
+    'import/no-import-module-exports': 'error',
+
+    // https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
+    'import/no-relative-packages': 'off',
   },
 };
