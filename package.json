@@ -13,7 +13,7 @@
     "lint:rules:main": "eslint-find-rules --unused packages/eslint-config-episource/index.js",
     "lint:rules:base:ts": "eslint-find-rules --unused packages/eslint-config-episource-base/typescript.js",
     "lint:rules:main:ts": "eslint-find-rules --unused packages/eslint-config-episource/typescript.js",
-    "lint:prettier": "eslint --print-config packages/eslint-config-episource/index.js | eslint-config-prettier-check",
+    "lint:prettier": "eslint-config-prettier packages/eslint-config-episource/index.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "format": "eslint ./packages --fix",

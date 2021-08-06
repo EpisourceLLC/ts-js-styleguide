@@ -14,14 +14,9 @@ module.exports = {
   rules: {
     // enforces no braces where they can be omitted
     // https://eslint.org/docs/rules/arrow-body-style
-    // TODO: enable requireReturnForObjectLiteral?
-    'arrow-body-style': [
-      'error',
-      'as-needed',
-      {
-        requireReturnForObjectLiteral: false,
-      },
-    ],
+    // Disabled due to conflict with prettier
+    // https://github.com/prettier/eslint-config-prettier#arrow-body-style-and-prefer-arrow-callback
+    'arrow-body-style': ['off'],
 
     // require parens in arrow function arguments
     // https://eslint.org/docs/rules/arrow-parens
@@ -115,13 +110,9 @@ module.exports = {
     ],
 
     // suggest using arrow functions as callbacks
-    'prefer-arrow-callback': [
-      'error',
-      {
-        allowNamedFunctions: false,
-        allowUnboundThis: true,
-      },
-    ],
+    // Disabled due to conflict with prettier
+    // https://github.com/prettier/eslint-config-prettier#arrow-body-style-and-prefer-arrow-callback
+    'prefer-arrow-callback': ['off'],
 
     // suggest using of const declaration for variables that are never modified after declared
     'prefer-const': [
