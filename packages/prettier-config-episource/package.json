@@ -1,6 +1,6 @@
 {
   "name": "@episource/prettier-config",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "Episource's base Prettier config, following our code conventions",
   "keywords": [
     "prettier",

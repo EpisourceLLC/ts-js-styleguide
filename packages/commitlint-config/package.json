@@ -1,6 +1,6 @@
 {
   "name": "@episource/commitlint-config",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Commitlint rules for Episource JS repositories",
   "main": "commitlint.config.js",
   "repository": "https://github.com/EpisourceLLC/ts-js-styleguide",
