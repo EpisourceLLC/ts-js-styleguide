@@ -14,9 +14,7 @@ module.exports = {
   rules: {
     // enforces no braces where they can be omitted
     // https://eslint.org/docs/rules/arrow-body-style
-    // Disabled due to conflict with prettier
-    // https://github.com/prettier/eslint-config-prettier#arrow-body-style-and-prefer-arrow-callback
-    'arrow-body-style': ['off'],
+    'arrow-body-style': ['error', 'as-needed'],
 
     // require parens in arrow function arguments
     // https://eslint.org/docs/rules/arrow-parens
