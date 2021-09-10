@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.7.0 (2021-09-10)
+
+
+### Features
+
+* enable arrow-body-style rule ([#116](https://github.com/EpisourceLLC/ts-js-styleguide/issues/116)) ([0e66f67](https://github.com/EpisourceLLC/ts-js-styleguide/commit/0e66f67506dd3fa017d83250e49c64649690703e))
+
+
+
+
+
 ## 0.6.12 (2021-08-13)
 
 **Note:** Version bump only for package @episource/babel-preset
