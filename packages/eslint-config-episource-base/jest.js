@@ -138,5 +138,8 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/unbound-method.md
     'jest/unbound-method': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/max-nested-describe.md
+    'jest/max-nested-describe': ['error', { max: 3 }],
   },
 };
