@@ -1,6 +1,6 @@
 {
   "name": "@episource/babel-preset",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "A babel preset for transforming your JavaScript for Episource",
   "main": "index.js",
   "author": "Ivan Santos (https://github.com/pragmaticivan)",
@@ -47,7 +47,7 @@
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/runtime": "^7.11.2",
-    "@episource/eslint-config-base": "^0.12.0",
+    "@episource/eslint-config-base": "^0.13.0",
     "eslint": "^7.10.0",
     "eslint-plugin-import": "^2.22.1",
     "safe-publish-latest": "^1.1.4"

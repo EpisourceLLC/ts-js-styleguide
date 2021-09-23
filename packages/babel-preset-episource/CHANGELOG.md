@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.8.0 (2021-09-23)
+
+
+### Features
+
+* **EPAMCD-431:** enable complexity rule ([#119](https://github.com/EpisourceLLC/ts-js-styleguide/issues/119)) ([4b77fab](https://github.com/EpisourceLLC/ts-js-styleguide/commit/4b77fab892151559eaffe565d910b3ac0d0260f1))
+
+
+
+
+
 # 0.7.0 (2021-09-10)
 
 
