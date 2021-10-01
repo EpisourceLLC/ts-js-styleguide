@@ -541,6 +541,9 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-exact-props.md
     'react/prefer-exact-props': 'warn',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-namespace.md
+    'react/no-namespace': 'error',
   },
 
   settings: {

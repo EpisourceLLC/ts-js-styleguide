@@ -141,5 +141,11 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/max-nested-describe.md
     'jest/max-nested-describe': ['error', { max: 3 }],
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-be.md
+    'jest/prefer-to-be': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-expect-resolves.md
+    'jest/prefer-expect-resolves': 'error',
   },
 };
