@@ -538,6 +538,9 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unstable-nested-components.md
     'react/no-unstable-nested-components': 'error',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-exact-props.md
+    'react/prefer-exact-props': 'warn',
   },
 
   settings: {
