@@ -110,13 +110,13 @@
     "@babel/helper-annotate-as-pure" "^7.14.5"
     regexpu-core "^4.7.1"
 
-"@babel/helper-define-map@^7.14.5":
-  version "7.14.5"
-  resolved "https://registry.yarnpkg.com/@babel/helper-define-map/-/helper-define-map-7.14.5.tgz#c1579b056a70a7da2f4a27ee492ec58f5ba3c439"
-  integrity sha512-spfQRnoChdYWwyFetQDBSDBgH42VskaquRI52kbLei5MjV7s3NPq30/sh2S3YdT20Ku/ZpaNnTVgmDo20NWylg==
+"@babel/helper-define-map@^7.16.5":
+  version "7.16.5"
+  resolved "https://registry.yarnpkg.com/@babel/helper-define-map/-/helper-define-map-7.16.5.tgz#ee8244ec15c5275715327f049b28f6b72a03a0de"
+  integrity sha512-npaQpTcr0mz0D8/AE5+icB+EFwsaH6cVwrEDKIlVzR+5Jb1tmHfKlqCqfo5IM3JVmirOZGhuv1DcnU1mCwsm4w==
   dependencies:
-    "@babel/helper-function-name" "^7.14.5"
-    "@babel/types" "^7.14.5"
+    "@babel/helper-function-name" "^7.16.0"
+    "@babel/types" "^7.16.0"
 
 "@babel/helper-define-polyfill-provider@^0.2.2":
   version "0.2.3"
@@ -800,12 +800,12 @@
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-property-mutators@^7.10.4":
-  version "7.14.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-property-mutators/-/plugin-transform-property-mutators-7.14.5.tgz#7d5fd744b5017cf6cc6496300ab32419c21242da"
-  integrity sha512-J/KZdYrLy/mugVWk7Q/him83ba0QGI8twLgov130GGerT6UKrNHeSnZANp96H4S6VOecy2S/9rhH4j8nCauoSw==
+  version "7.16.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-property-mutators/-/plugin-transform-property-mutators-7.16.5.tgz#d0bd9da1f66b79b58936d336d9f48d75d482be4b"
+  integrity sha512-ny0KI1AJLQFP+g0PkPwbyJpXtixt0asAx+FFv9WAHFzgeA7417vUF3G7KKVIpcYJ6BufCDHHMixXlcosyagktQ==
   dependencies:
-    "@babel/helper-define-map" "^7.14.5"
-    "@babel/helper-plugin-utils" "^7.14.5"
+    "@babel/helper-define-map" "^7.16.5"
+    "@babel/helper-plugin-utils" "^7.16.5"
 
 "@babel/plugin-transform-react-display-name@^7.16.0":
   version "7.16.0"
@@ -1072,7 +1072,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.0.0", "@babel/types@^7.14.5", "@babel/types@^7.15.4", "@babel/types@^7.15.6", "@babel/types@^7.16.0", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4", "@babel/types@^7.7.0":
+"@babel/types@^7.0.0", "@babel/types@^7.15.4", "@babel/types@^7.15.6", "@babel/types@^7.16.0", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4", "@babel/types@^7.7.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.16.0.tgz#db3b313804f96aadd0b776c4823e127ad67289ba"
   integrity sha512-PJgg/k3SdLsGb3hhisFvtLOw5ts113klrpLuIPtCJIU+BB24fqq6lf8RWqKJEjzqXR9AEH1rIb5XTqwBHB+kQg==
