@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.9.0 (2021-12-14)
+
+
+### Features
+
+* make commitlint-config public ([#164](https://github.com/EpisourceLLC/ts-js-styleguide/issues/164)) ([3cb8423](https://github.com/EpisourceLLC/ts-js-styleguide/commit/3cb8423da220c54a82d9b359556aae22bf2594fd))
+
+
+
+
+
 # 0.8.0 (2021-09-23)
 
 
