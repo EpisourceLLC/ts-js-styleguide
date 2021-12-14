@@ -1,4 +1,4 @@
-# babel-preset-episource
+# @episource/babel-preset
 
 > A babel preset for transforming your JavaScript for Episource.
 
@@ -13,7 +13,7 @@ Currently contains transforms for all [stage 4](https://tc39.github.io/ecma262/)
 To install with all necessary `peerDependencies`, use [install-peerdeps](https://github.com/nathanhleung/install-peerdeps#usage):
 
 ```sh
-npx install-peerdeps --dev babel-preset-episource
+npx install-peerdeps --dev @episource/babel-preset
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npx install-peerdeps --dev babel-preset-episource
 
 ```json
 {
-  "presets": ["episource"]
+  "presets": ["@episource/babel-preset"]
 }
 ```
 
@@ -38,7 +38,7 @@ $ babel script.js --presets episource
 
 ```javascript
 require('@babel/core').transform('code', {
-  presets: ['episource']
+  presets: ['@episource/babel-preset']
 });
 ```
 
@@ -54,7 +54,7 @@ You may override our default list of targets by providing your own `targets` key
 
 ```json
 {
-  "presets": [["episource", {
+  "presets": [["@episource/babel-preset", {
     "targets": {
       "chrome": 50,
       "ie": 11,
@@ -68,7 +68,7 @@ The following transpiles only for Node v6.
 
 ```json
 {
-  "presets": [["episource", {
+  "presets": [["@episource/babel-preset", {
     "targets": {
       "node": 6
     }
@@ -80,7 +80,7 @@ If you wish, you can also inherit our default list of browsers and extend them u
 
 ```json
 {
-  "presets": [["episource", {
+  "presets": [["@episource/babel-preset", {
     "additionalTargets": {
       "chrome": 42,
       "ie": 8
@@ -93,7 +93,7 @@ You may override our default debug option by providing your own `debug` key.
 
 ```json
 {
-  "presets": [["episource", {
+  "presets": [["@episource/babel-preset", {
     "debug": true
   }]]
 }
@@ -107,7 +107,7 @@ You may override our default development option by providing your own boolean `d
 
 ```json
 {
-  "presets": [["episource", {
+  "presets": [["@episource/babel-preset", {
     "development": false
   }]]
 }
@@ -122,7 +122,7 @@ To enable this transformation with the default options, set the `removePropTypes
 
 ```json
 {
-  "presets": [["episource", {
+  "presets": [["@episource/babel-preset", {
     "removePropTypes": true
   }]]
 }
@@ -142,7 +142,7 @@ Default options can be overridden using the `removePropTypes` option. These opti
 
 ```json
 {
-  "presets": [["episource", {
+  "presets": [["@episource/babel-preset", {
     "removePropTypes": {
       "mode": "remove"
     }
@@ -158,7 +158,7 @@ By default, this preset will compile classes in normal mode. This is safer, but 
 
 ```json
 {
-  "presets": [["episource", {
+  "presets": [["@episource/babel-preset", {
     "looseClasses": true,
   }]]
 }

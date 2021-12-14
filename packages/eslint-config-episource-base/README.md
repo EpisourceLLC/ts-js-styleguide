@@ -1,4 +1,4 @@
-# eslint-config-episource-base
+# @episource/eslint-config-base
 
 > Episource's base ESLint config (without React plugins), following our code conventions
 
@@ -18,7 +18,7 @@ For example, in a JSON `.eslintrc`:
 
 ```json
 {
-  "extends": "episource-base"
+  "extends": "@episource/eslint-config-base"
 }
 ```
 
@@ -26,7 +26,7 @@ For example, in a JSON `.eslintrc`:
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+ and Prettier.
 
-### `"extends": ["episource-base", "episource-base/jest]`
+### `"extends": ["@episource/eslint-config-base", "@episource/eslint-config-base/jest]`
 
 Jest-specific rules and environment added to the default export.
 
@@ -35,13 +35,13 @@ Jest-specific rules and environment added to the default export.
 Unfortunately, super-useful editor plugins like `prettier-atom` and `prettier-vscode` do not load Prettier settings from ESLint config, which is where we load our Prettier options from. To workaround this, add a `.prettierrc.js` or `prettier.config.js` file to your repo root with the following content:
 
 ```js
-module.exports = require('prettier-config-episource');
+module.exports = require('@episource/prettier-config');
 ```
 
 ## Related
 
-- [Episource's overarching ESLint config](https://npmjs.com/eslint-config-episource)
-- [Episource's Prettier config](https://npmjs.com/prettier-config-episource)
+- [Episource's overarching ESLint config](https://npmjs.com/@episource/eslint-config)
+- [Episource's Prettier config](https://npmjs.com/@episource/prettier-config)
 - [Episource's Javascript code conventions](https://github.com/EpisourceLLC/ts-js-styleguide)
 
 ## Development
