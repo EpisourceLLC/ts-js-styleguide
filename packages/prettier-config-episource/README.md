@@ -1,11 +1,11 @@
-# `prettier-config-episource`
+# @episource/prettier-config
 
 > Episource's base Prettier config, following our code conventions
 
 ## Usage
 
 ```sh
-npm i -D prettier prettier-config-episource
+npm i -D prettier @episource/prettier-config
 ```
 
-Please consule the [Prettier documentation](https://prettier.io/docs/en/configuration.html#sharing-configurations) for further options.
+Please consult the [Prettier documentation](https://prettier.io/docs/en/configuration.html#sharing-configurations) for further options.
