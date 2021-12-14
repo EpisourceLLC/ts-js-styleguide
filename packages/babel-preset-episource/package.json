@@ -50,7 +50,7 @@
     "@episource/eslint-config-base": "^0.13.0",
     "eslint": "^7.10.0",
     "eslint-plugin-import": "^2.22.1",
-    "safe-publish-latest": "^1.1.4"
+    "safe-publish-latest": "^2.0.0"
   },
   "gitHead": "2a061eefbeb6624ddd8b5483ac06cbaf28344ef5",
   "publishConfig": {
