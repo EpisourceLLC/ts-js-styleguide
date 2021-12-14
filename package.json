@@ -81,10 +81,5 @@
     "react-dom": "^16.13.1",
     "styled-components": "^5.2.0"
   },
-  "dependencies": {},
-  "commitlint": {
-    "extends": [
-      "@episource/commitlint-config"
-    ]
-  }
+  "dependencies": {}
 }
