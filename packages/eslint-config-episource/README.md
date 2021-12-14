@@ -17,11 +17,11 @@ For example, in a JSON `.eslintrc`:
 
 ```json
 {
-  "extends": "episource"
+  "extends": "@episource/eslint-config"
 }
 ```
 
-### `"extends": "episource"`
+### `"extends": "@episource/eslint-config"`
 
 Lint all the things, including ECMAScript 6+, React, and Prettier.
 
