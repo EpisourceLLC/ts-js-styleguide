@@ -13,6 +13,12 @@ To install with all necessary `peerDependencies`, use [install-peerdeps](https:/
 npx install-peerdeps --dev @episource/eslint-config-base
 ```
 
+Or with yarn
+
+```sh
+npx install-peerdeps -Y --dev @episource/eslint-config-base
+```
+
 All exported configs should be added to your [ESlint configuration file](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) `extends`.
 For example, in a JSON `.eslintrc`:
 
@@ -22,7 +28,7 @@ For example, in a JSON `.eslintrc`:
 }
 ```
 
-### `"extends": "episource-base"`
+### `"extends": "@episource/eslint-config-base"`
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+ and Prettier.
 

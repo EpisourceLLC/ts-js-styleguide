@@ -12,6 +12,12 @@ To install with all necessary `peerDependencies`, use [install-peerdeps](https:/
 npx install-peerdeps --dev @episource/eslint-config
 ```
 
+Or with yarn
+
+```sh
+npx install-peerdeps -Y --dev @episource/eslint-config
+```
+
 All exported configs should be added to your [ESlint configuration file](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) `extends`.
 For example, in a JSON `.eslintrc`:
 
