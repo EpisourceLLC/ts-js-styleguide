@@ -10,7 +10,7 @@
 To install with all necessary `peerDependencies`, use [install-peerdeps](https://github.com/nathanhleung/install-peerdeps#usage):
 
 ```sh
-npx install-peerdeps --dev eslint-config-episource-base
+npx install-peerdeps --dev @episource/eslint-config-base
 ```
 
 All exported configs should be added to your [ESlint configuration file](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) `extends`.
