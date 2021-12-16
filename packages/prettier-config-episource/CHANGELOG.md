@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.7.0 (2021-12-16)
+
+
+### Features
+
+* disable import/prefer-default-export ([#165](https://github.com/EpisourceLLC/ts-js-styleguide/issues/165)) ([4528cec](https://github.com/EpisourceLLC/ts-js-styleguide/commit/4528cec3763fb3d607f31bb1fd7c4b2d0fac9772))
+
+
+
+
+
 ## 0.6.4 (2021-12-16)
 
 **Note:** Version bump only for package @episource/prettier-config
