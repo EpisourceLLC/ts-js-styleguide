@@ -33,6 +33,9 @@ Lint all the things, including ECMAScript 6+, React, and Prettier.
 
 If you don't need React, use [@episource/eslint-config-base](https://npmjs.com/@episource/eslint-config-base).
 
+### `"extends": ["@episource/eslint-config", "@episource/eslint-config-base/typescript"]`
+
+Typescript rules and environment added to the default export.
 ### `"extends": ["@episource/eslint-config", "@episource/eslint-config-base/jest]`
 
 Jest-specific rules and environment added to the default export.

@@ -32,6 +32,10 @@ For example, in a JSON `.eslintrc`:
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+ and Prettier.
 
+### `"extends": ["@episource/eslint-config-base", "@episource/eslint-config-base/typescript"]`
+
+Typescript rules and environment added to the default export.
+
 ### `"extends": ["@episource/eslint-config-base", "@episource/eslint-config-base/jest]`
 
 Jest-specific rules and environment added to the default export.
