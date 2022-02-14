@@ -18,5 +18,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 'error',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'error',
   },
 };
