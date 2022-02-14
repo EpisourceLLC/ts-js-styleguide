@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.15.1 (2022-02-14)
+
+
+### Bug Fixes
+
+* when using ts, use correct no-shadow ([#176](https://github.com/EpisourceLLC/ts-js-styleguide/issues/176)) ([e41d81d](https://github.com/EpisourceLLC/ts-js-styleguide/commit/e41d81db1d61d3a4b0ffde611060f9ba658e0bbe))
+
+
+
+
+
 # 0.15.0 (2021-12-16)
 
 
