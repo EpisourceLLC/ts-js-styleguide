@@ -11,6 +11,14 @@ const defaultTargets = {
   node: 12,
 };
 
+/**
+ * Creates babel compile targets object.
+ *
+ * @param opts Additional options to pass.
+ * @param opts.additionalTargets List of additional babel targets to compile for.
+ *
+ * @returns Babel compile targets.
+ */
 function buildTargets({ additionalTargets }) {
   return { ...defaultTargets, ...additionalTargets };
 }
