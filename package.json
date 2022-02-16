@@ -18,7 +18,6 @@
     "test:watch": "jest --watch",
     "format": "eslint ./packages --fix",
     "pretest": "lerna run prepare --loglevel error && yarn run --silent lint",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
     "prerelease": "yarn test",
     "release": "lerna publish",
     "diff": "lerna diff",
