@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2022-02-16)
+
+
+### Features
+
+* update commitlint rule ([#181](https://github.com/EpisourceLLC/ts-js-styleguide/issues/181)) ([9884d51](https://github.com/EpisourceLLC/ts-js-styleguide/commit/9884d51fbc81b1852049405d6f38302a4f257438))
+
+
+### BREAKING CHANGES
+
+* case rules have been reversed for shortcut. Commits should now take the form of `feat(sc-123): did the thing`
+
+* chore: update husky
+
+* fix: correct husky command
+
+* fix: enforce kebab-case
+* only kebab-case will be allowed after this change
+
+* chore: remove unused script
+
+Co-authored-by: Elliott Foster <elliott.foster@episource.com>
+
+
+
+
+
 ## 2.4.1 (2022-02-14)
 
 
