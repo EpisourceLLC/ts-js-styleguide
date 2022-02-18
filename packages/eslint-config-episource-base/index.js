@@ -8,6 +8,7 @@ module.exports = {
     './rules/es6',
     './rules/imports',
     './rules/strict',
+    './rules/jsdoc',
     'eslint-config-prettier',
   ].map(require.resolve),
   plugins: ['prettier'],
