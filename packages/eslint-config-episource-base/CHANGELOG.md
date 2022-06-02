@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.16.2 (2022-06-02)
+
+
+### Bug Fixes
+
+* correct reference to ts base config ([#195](https://github.com/EpisourceLLC/ts-js-styleguide/issues/195)) ([6f897e0](https://github.com/EpisourceLLC/ts-js-styleguide/commit/6f897e0a68bf5f5e6cfa46f00a3fafe86ed68aa3))
+
+
+
+
+
 ## 0.16.1 (2022-02-17)
 
 **Note:** Version bump only for package @episource/eslint-config-base
