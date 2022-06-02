@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'eslint-config-episource-base/typescript',
+    '@episource/eslint-config-base/typescript',
     './rules/react',
     './rules/react-a11y',
     'eslint-config-prettier/react',
