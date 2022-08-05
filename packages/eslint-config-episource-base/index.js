@@ -8,8 +8,8 @@ module.exports = {
     './rules/es6',
     './rules/imports',
     './rules/strict',
+    './rules/security-node',
     'eslint-config-prettier',
-    'plugin:security-node/recommended',
   ].map(require.resolve),
   plugins: ['prettier', 'security-node'],
   parserOptions: {
