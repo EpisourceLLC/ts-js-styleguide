@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.12.0 (2022-08-05)
+
+
+### Features
+
+* **sc-48732:** add security linter to base ([#207](https://github.com/EpisourceLLC/ts-js-styleguide/issues/207)) ([4509754](https://github.com/EpisourceLLC/ts-js-styleguide/commit/4509754d570edd6ddee8623423a25ad12c4ffa6f))
+
+
+### BREAKING CHANGES
+
+* **sc-48732:** new rules will cause builds to fail if linting issues are found.
+
+* feat(sc-48732): add security linter to base
+
+* fix(sc-48732): move security plugin to index.js
+
+* fix(sc-48732): properly set up rules for security-node plugin
+
+* feat(sc-48732): make security-node plugin cause errors, include docs
+
+Co-authored-by: Isaac Hernandez <isaac.hernandez@LAX-LM11746.local>
+
+
+
+
+
 ## 0.11.2 (2022-06-02)
 
 
