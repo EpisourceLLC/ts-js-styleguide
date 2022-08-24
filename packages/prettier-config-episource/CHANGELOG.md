@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.9.1 (2022-08-24)
+
+
+### Bug Fixes
+
+* upgrade react eslint dependencies ([#208](https://github.com/EpisourceLLC/ts-js-styleguide/issues/208)) ([b3a0789](https://github.com/EpisourceLLC/ts-js-styleguide/commit/b3a078926e61e5803a5dd21f36b8b051445aacb6))
+
+
+
+
+
 # 0.9.0 (2022-08-05)
 
 
