@@ -1,4 +1,4 @@
-const STORY_REGEX = /^sc-\d+/;
+const STORY_REGEX = /^sc-\d+$/;
 const DEPS_REGEX = /\[[^\]]*\]$/;
 
 const withWhen =
