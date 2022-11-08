@@ -19,18 +19,18 @@ module.exports = {
     {
       rules: {
         '@episource/dependencies': function dependencies(parsed, when) {
-          const test = withWhen(when);
+          const testCondition = withWhen(when);
           const { subject } = parsed;
           return [
-            test(subject && !!subject.match(DEPS_REGEX)),
+            testCondition(subject && !!`${subject}`.match(DEPS_REGEX)),
             'Your subject must contain a dependencies array, e.g. "feat: did the thing [dependency1]".\n\tUse an empty array if there are no dependencies.',
           ];
         },
         '@episource/story-link': function storyLink(parsed, when) {
-          const test = withWhen(when);
+          const testCondition = withWhen(when);
           const { scope } = parsed;
           return [
-            test(scope && !!scope.match(STORY_REGEX)),
+            testCondition(scope && !!`${scope}`.match(STORY_REGEX)),
             'Your scope must contain a shortcut story link, e.g. "feat(sc-123): did the thing"',
           ];
         },
