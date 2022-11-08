@@ -30,7 +30,7 @@ module.exports = {
           const testCondition = withWhen(when);
           const { scope } = parsed;
           return [
-            testCondition(scope && !!`${scope}`.match(STORY_REGEX)),
+            testCondition(!scope || !!`${scope}`.match(STORY_REGEX)),
             'Your scope must contain a shortcut story link, e.g. "feat(sc-123): did the thing"',
           ];
         },
