@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.1.0 (2022-11-09)
+
+
+### Features
+
+* add pr rules ([#212](https://github.com/EpisourceLLC/ts-js-styleguide/issues/212)) ([3d79ddf](https://github.com/EpisourceLLC/ts-js-styleguide/commit/3d79ddf5fd4d15068cee42b1d3c69deeaaaf783a))
+
+
+
+
+
 ## 4.0.1 (2022-08-24)
 
 
