@@ -1,6 +1,6 @@
 {
   "name": "@episource/eslint-config-base",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "description": "Episource's base JS ESLint config, following our styleguide",
   "main": "index.js",
   "files": [
@@ -51,7 +51,7 @@
     "node": ">= 14"
   },
   "dependencies": {
-    "@episource/prettier-config": "^0.10.1",
+    "@episource/prettier-config": "^0.10.2",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
     "confusing-browser-globals": "^1.0.9",
