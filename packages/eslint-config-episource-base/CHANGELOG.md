@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.19.0 (2023-03-27)
+
+### Features
+
+- remove security-node ([#230](https://github.com/EpisourceLLC/ts-js-styleguide/issues/230)) ([1bbbe87](https://github.com/EpisourceLLC/ts-js-styleguide/commit/1bbbe87ba8b38e3b9224fe87dd1bde2e978a451a))
+
+### BREAKING CHANGES
+
+- Per gkouziik/eslint-plugin-security-node#68
+  support for this module has been lacking. The module is
+  incompatible with newer versions of node and eslint, so'
+  removing for now.
+
 ## 0.18.2 (2022-12-05)
 
 **Note:** Version bump only for package @episource/eslint-config-base
