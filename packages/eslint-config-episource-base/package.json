@@ -57,7 +57,6 @@
     "confusing-browser-globals": "^1.0.9",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-security-node": "^1.1.1",
     "object.assign": "^4.1.1",
     "object.entries": "^1.1.2"
   },

@@ -8,11 +8,10 @@ module.exports = {
     './rules/es6',
     './rules/imports',
     './rules/strict',
-    './rules/security-node',
     './rules/ts-shared.js',
     'eslint-config-prettier',
   ].map(require.resolve),
-  plugins: ['prettier', 'security-node'],
+  plugins: ['prettier'],
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
