@@ -10,7 +10,7 @@
   },
   "private": false,
   "dependencies": {
-    "@commitlint/config-conventional": "^13.1.0"
+    "@commitlint/config-conventional": "^17.0.0"
   },
   "publishConfig": {
     "access": "public"
