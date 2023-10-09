@@ -66,7 +66,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-find-rules": "^3.6.1",
+    "eslint-find-rules": "^4.0.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.5.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
