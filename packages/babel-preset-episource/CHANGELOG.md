@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.14.1 (2023-10-16)
+
+### Bug Fixes
+
+- **sc-155900:** upgrade babel-traverse ([#258](https://github.com/EpisourceLLC/ts-js-styleguide/issues/258)) ([273e0a8](https://github.com/EpisourceLLC/ts-js-styleguide/commit/273e0a88953db7a8bc99033057d33624e4c2fa34))
+
 # 0.14.0 (2023-03-27)
 
 ### Features
