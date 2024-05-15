@@ -1,0 +1,19 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-BRACES-6838727:
+    - '*':
+        reason: 'Both issues are associated with micromatch issue listed below, specifically micromatch.braces() method.
+        Because of the reasons stated for micromatch, this issue can temporarily be ignored'
+        expires: 2024-06-30T00:00:00.000Z
+        created: 2024-05-15T00:00:00.000Z
+  SNYK-JS-MICROMATCH-6838728:
+    - '*':
+        reason: 'Based on an on-going thread here https://github.com/micromatch/micromatch/issues/243
+        An attack can only happen if regex input can be controlled. Our usecases do not require user input for these packages.
+        Furthermore, this would only result in a Denial of Service (not PHI).We can ignore until there is a remediation path.'
+        expires: 2024-06-30T00:00:00.000Z
+        created: 2024-05-15T00:00:00.000Z
+patch: {}
+exclude: {}
