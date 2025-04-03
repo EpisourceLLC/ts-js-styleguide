@@ -147,5 +147,8 @@ module.exports = {
 
     // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-expect-resolves.md
     'jest/prefer-expect-resolves': 'error',
+
+    // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/require-hook.md
+    'jest/require-hook': 'error',
   },
 };
