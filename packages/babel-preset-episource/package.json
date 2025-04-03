@@ -41,11 +41,11 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24"
   },
   "peerDependencies": {
-    "@babel/core": "^7.23.2",
+    "@babel/core": "^7.26.10",
     "@babel/runtime": "^7.23.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.2",
+    "@babel/core": "^7.26.10",
     "@babel/runtime": "^7.23.2",
     "@episource/eslint-config-base": "^0.19.1",
     "eslint": "^7.10.0",
