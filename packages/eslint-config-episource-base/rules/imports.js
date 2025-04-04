@@ -267,5 +267,11 @@ module.exports = {
 
     // https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
     'import/no-relative-packages': 'off',
+
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/consistent-type-specifier-style.md
+    'import/consistent-type-specifier-style': ['error', 'prefer-inline'],
+
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-empty-named-blocks.md
+    'import/no-empty-named-blocks': 'error',
   },
 };
